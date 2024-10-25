@@ -1,0 +1,20 @@
+resource_aluminum_2:
+  disableWhenFlooded: false
+resource_silicon_2:
+  disableWhenFlooded: false
+resource_iron_2:
+  disableWhenFlooded: false
+resource_carbon_2:
+  disableWhenFlooded: false
+resource_chemicals_2:
+  disableWhenFlooded: false
+resource_aluminum_3:
+  disableWhenFlooded: false
+resource_silicon_3:
+  disableWhenFlooded: false
+resource_iron_3:
+  disableWhenFlooded: false
+resource_carbon_3:
+  disableWhenFlooded: false
+resource_chemicals_3:
+  disableWhenFlooded: false

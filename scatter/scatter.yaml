@@ -1,0 +1,66 @@
+passes:
+  - !ScatterPassDisk
+    showInOrbitalView: false
+    randomPosition: true
+    repetition: 40
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum, extractionLevel: 1, weight: 0, qtyMin: 10000, qtyMax: 25000 } #BUG orbtal view?
+      - { resource: !resource resource_aluminum_2, extractionLevel: 1, weight: 10, qtyMin: 10000, qtyMax: 25000 }
+      - { resource: !resource resource_aluminum_2, extractionLevel: 2, weight: 10, qtyMin: 30000, qtyMax: 100000 }
+      - { resource: !resource resource_aluminum_2, extractionLevel: 3, weight: 10, qtyMin: 150000, qtyMax: 200000 }
+      - { resource: !resource resource_aluminum_3, extractionLevel: 1, weight: 3, qtyMin: 100, qtyMax: 100, infinite: true }
+  - !ScatterPassDisk
+    showInOrbitalView: false
+    randomPosition: true
+    repetition: 40
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon, extractionLevel: 1, weight: 0, qtyMin: 10000, qtyMax: 25000 }
+      - { resource: !resource resource_carbon_2, extractionLevel: 1, weight: 10, qtyMin: 10000, qtyMax: 25000 }
+      - { resource: !resource resource_carbon_2, extractionLevel: 2, weight: 10, qtyMin: 30000, qtyMax: 100000 }
+      - { resource: !resource resource_carbon_2, extractionLevel: 3, weight: 10, qtyMin: 150000, qtyMax: 200000 }
+      - { resource: !resource resource_carbon_3, extractionLevel: 1, weight: 3, qtyMin: 100, qtyMax: 100, infinite: true }
+  - !ScatterPassDisk
+    showInOrbitalView: false
+    randomPosition: true
+    repetition: 40
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals, extractionLevel: 1, weight: 0, qtyMin: 10000, qtyMax: 25000 }
+      - { resource: !resource resource_chemicals_2, extractionLevel: 1, weight: 10, qtyMin: 10000, qtyMax: 25000 }
+      - { resource: !resource resource_chemicals_2, extractionLevel: 2, weight: 10, qtyMin: 30000, qtyMax: 100000 }
+      - { resource: !resource resource_chemicals_2, extractionLevel: 3, weight: 10, qtyMin: 150000, qtyMax: 200000 }
+      - { resource: !resource resource_chemicals_3, extractionLevel: 1, weight: 3, qtyMin: 100, qtyMax: 100, infinite: true }
+  - !ScatterPassDisk
+    showInOrbitalView: false
+    randomPosition: true
+    repetition: 40
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron, extractionLevel: 1, weight: 0, qtyMin: 10000, qtyMax: 25000 }
+      - { resource: !resource resource_iron_2, extractionLevel: 1, weight: 10, qtyMin: 10000, qtyMax: 25000 }
+      - { resource: !resource resource_iron_2, extractionLevel: 2, weight: 10, qtyMin: 30000, qtyMax: 100000 }
+      - { resource: !resource resource_iron_2, extractionLevel: 3, weight: 10, qtyMin: 150000, qtyMax: 200000 }
+      - { resource: !resource resource_iron_3, extractionLevel: 1, weight: 3, qtyMin: 100, qtyMax: 100, infinite: true }#
+
+
+  - !ScatterPassDisk
+    showInOrbitalView: yes
+    randomPosition: true
+    repetition: 10 
+    radius: 50
+    focalRadius: 50                   
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_oxygen, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1000 } 
+      - { resource: !resource resource_oxygen, extractionLevel: 2, weight: 3, qtyMin: 2000, qtyMax: 10000 } 
+      - { resource: !resource resource_oxygen, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 } 

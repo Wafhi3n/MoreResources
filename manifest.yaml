@@ -1,0 +1,37 @@
+modId: "MoreResourcesAndMines"
+compatibleGameVersions:
+    - "1.8.x"
+languages:
+  filenames:
+    - language.yaml
+  replace: false
+scatterSetup: scatter/scatter.yaml
+buildingCategory:
+  filenames:
+    - buildingCategory.yaml
+  replace: false
+resource:
+  filenames:
+    - resource/resource.yaml
+  replace: false  
+building:
+  filenames:
+    - building/carbon.yaml
+    - building/aluminum.yaml
+  #  - building-bluemars/aluminum.yaml
+
+    - building/chemicals.yaml
+    - building/iron.yaml
+# #   - building/nitrate.yaml
+    - building/silicon.yaml
+    - building/uranium.yaml
+    - building/water.yaml
+  replace: false 
+technology:
+  filenames:
+    - technology-engineering.yaml
+  replace: false  
+
+optionalManifests:
+  - bluemars.yaml
+

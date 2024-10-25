@@ -1,0 +1,119 @@
+building_water_mine_4:
+  #isUpgradeTo:
+  #  - !building building_water_mine
+  categoryType: !buildingCategory category_mines_2
+  compactName: WaMi4
+  description: BE_building_water_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 300.0
+  name: BE_building_water_mine_4_name
+  outputQuantity: 1
+  outputResource: !resource resource_water
+  powerConsumption: 30.0
+  powerPriority: 3.0
+  prefabName: WaterMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.20
+  requiredConstructionResources:
+    !resource resource_steel: 90
+  requiredResourceVein: !resource resource_water_2
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_water_4.png
+  iconName : Sprite/mines/mining_water_4.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 1 
+
+building_water_mine_5:
+  isUpgradeTo:
+    - !building building_water_mine_4
+  categoryType: !buildingCategory category_mines_2
+  compactName: WaMi5
+  description: BE_building_water_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 350.0
+  name: BE_building_water_mine_5_name
+  outputQuantity: 1
+  outputResource: !resource resource_water
+  powerConsumption: 50.0
+  powerPriority: 3.0
+  prefabName: WaterMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.25
+  requiredConstructionResources:
+    !resource resource_steel: 300
+  requiredResourceVein: !resource resource_water_2
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_water_5.png
+  iconName : Sprite/mines/mining_water_5.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+
+building_water_mine_6:
+  isUpgradeTo:
+    - !building building_water_mine_5
+  categoryType: !buildingCategory category_mines_2
+  compactName: WaMi5
+  description: BE_building_water_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 450.0
+  name: BE_building_water_mine_6_name
+  outputQuantity: 1
+  outputResource: !resource resource_water
+  powerConsumption: 100.0
+  powerPriority: 3.0
+  prefabName: WaterMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.35
+  requiredConstructionResources:
+    !resource resource_steel: 1000
+  requiredResourceVein: !resource resource_water_2
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_water_6.png
+  iconName : Sprite/mines/mining_water_6.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+  
+building_water_mine_7:
+  #isUpgradeTo:
+  #  - !building building_water_mine
+  categoryType: !buildingCategory category_mines_3
+  compactName: WaMi5
+  description: BE_building_water_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 500.0
+  name: BE_building_water_mine_7_name
+  outputQuantity: 2
+  outputResource: !resource resource_water
+  powerConsumption: 600.0
+  powerPriority: 3.0
+  prefabName: WaterMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.5
+  requiredConstructionResources:
+    !resource resource_steel: 10000
+  requiredResourceVein: !resource resource_water_3
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_water_inf.png
+  iconName : Sprite/mines/mining_water_inf.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3

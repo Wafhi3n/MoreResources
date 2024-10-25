@@ -1,0 +1,131 @@
+building_iron_mine_4_aquatic:
+  #isUpgradeTo:
+  #  - !building building_iron_mine
+  categoryType: !buildingCategory category_mines_2
+  compactName: IronMi4
+  description: BE_building_iron_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 300.0
+  name: BE_building_iron_mine_4_name
+  outputQuantity: 1
+  outputResource: !resource resource_iron
+  powerConsumption: 30.0
+  powerPriority: 3.0
+  prefabName: IronMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.20
+  requiredConstructionResources:
+    !resource resource_steel: 90
+  requiredResourceVein: !resource resource_iron_2
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_iron_4.png
+  iconName : Sprite/mines/mining_iron_4.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 1 
+  nodeType: Aquatic 
+  needsEvenTerrain: false  
+  isAquaticVersionOf: !building building_iron_mine_4
+
+building_iron_mine_5_aquatic:
+  isUpgradeTo:
+    - !building building_iron_mine_4_aquatic
+  categoryType: !buildingCategory category_mines_2
+  compactName: IronMi5
+  description: BE_building_iron_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 350.0
+  name: BE_building_iron_mine_5_name
+  outputQuantity: 1
+  outputResource: !resource resource_iron
+  powerConsumption: 50.0
+  powerPriority: 3.0
+  prefabName: IronMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.25
+  requiredConstructionResources:
+    !resource resource_steel: 300
+  requiredResourceVein: !resource resource_iron_2
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_iron_5.png
+  iconName : Sprite/mines/mining_iron_5.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+  nodeType: Aquatic 
+  needsEvenTerrain: false  
+  isAquaticVersionOf: !building building_iron_mine_5
+
+building_iron_mine_6_aquatic:
+  isUpgradeTo:
+    - !building building_iron_mine_5_aquatic
+  categoryType: !buildingCategory category_mines_2
+  compactName: IronMi6
+  description: BE_building_iron_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 450.0
+  name: BE_building_iron_mine_6_name
+  outputQuantity: 1
+  outputResource: !resource resource_iron
+  powerConsumption: 100.0
+  powerPriority: 3.0
+  prefabName: IronMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.35
+  requiredConstructionResources:
+    !resource resource_steel: 1000
+  requiredResourceVein: !resource resource_iron_2
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_iron_6.png
+  iconName : Sprite/mines/mining_iron_6.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+  nodeType: Aquatic 
+  needsEvenTerrain: false  
+  isAquaticVersionOf: !building building_iron_mine_6
+
+building_iron_mine_7_aquatic:
+  #isUpgradeTo:
+  #  - !building building_iron_mine
+  categoryType: !buildingCategory category_mines_3
+  compactName: IronMi7
+  description: BE_building_iron_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 500.0
+  name: BE_building_iron_mine_7_name
+  outputQuantity: 2
+  outputResource: !resource resource_iron
+  powerConsumption: 600.0
+  powerPriority: 3.0
+  prefabName: IronMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.5
+  requiredConstructionResources:
+    !resource resource_steel: 10000
+  requiredResourceVein: !resource resource_iron_3
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName : Sprite/mines/mining_iron_inf.png
+  iconName : Sprite/mines/mining_iron_inf.png
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+  nodeType: Aquatic 
+  needsEvenTerrain: false  
+  isAquaticVersionOf: !building building_iron_mine_7

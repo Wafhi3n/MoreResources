@@ -1,0 +1,21 @@
+modId: "MoreResourceAndMineBlueMars"
+compatibleGameVersions:
+  - "1.8.x"
+requiredMods:
+  - "BlueMars"
+building:
+  filenames:
+    - building-bluemars/aluminum.yaml
+    - building-bluemars/carbon.yaml
+    - building-bluemars/chemicals.yaml
+    - building-bluemars/ice.yaml
+    - building-bluemars/iron.yaml
+     #- building-bluemars/nitrate.yaml
+    - building-bluemars/silicon.yaml
+    #- building-bluemars/uranium.yaml
+    - building-bluemars/water.yaml
+  replace: false
+resource:
+  filenames:
+    - resource/resource-bluemars.yaml
+  replace: false  

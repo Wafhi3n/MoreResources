@@ -1,0 +1,221 @@
+technology_mine_upgrade_2:
+    requirements:
+    - !technology technology_lane_engineering_1
+#    - !technology technology_mine_upgrade_3
+
+
+technology_mine_upgrade_3:
+  connections:
+    technology_mine_upgrade_4: []
+  !replace requirements:
+    - !technology technology_lane_engineering_2
+    - !technology technology_mine_upgrade_2
+
+
+technology_mine_upgrade_4:
+  actions: []
+  isLane: false
+  name: BE_technology_mine_upgrade_4_name
+  description: BE_technology_mine_upgrade_4_description
+  iconName: Techtree Icons/ICO_TT_MineUpgrade2
+  popupImageName: Popups/Images/IMG_PU_Engineering_MineUpgrade2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_3
+    - !technology technology_mine_upgrade_3
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_water_mine_4
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_chemicals_mine_4
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_aluminum_mine_4
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_silicon_mine_4
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_iron_mine_4
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_carbon_mine_4
+  connections:
+    technology_mine_upgrade_3: []
+  isPlaceholder: false
+  position: 3
+
+
+technology_mine_upgrade_5:
+  actions: []
+  isLane: false
+  name: BE_technology_mine_upgrade_5_name
+  description: BE_technology_mine_upgrade_5_description
+  iconName: Techtree Icons/ICO_TT_MineUpgrade2
+  popupImageName: Popups/Images/IMG_PU_Engineering_MineUpgrade2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_4
+    - !technology technology_mine_upgrade_4
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_water_mine_5
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_chemicals_mine_5
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_aluminum_mine_5
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_silicon_mine_5
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_iron_mine_5
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_carbon_mine_5
+  connections:
+    technology_mine_upgrade_3: []
+  isPlaceholder: false
+  position: 3
+
+technology_mine_upgrade_6:
+  actions: []
+  isLane: false
+  name: BE_technology_mine_upgrade_6_name
+  description: BE_technology_mine_upgrade_6_description
+  iconName: Techtree Icons/ICO_TT_MineUpgrade2
+  popupImageName: Popups/Images/IMG_PU_Engineering_MineUpgrade2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_5
+    - !technology technology_mine_upgrade_5
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_water_mine_6
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_chemicals_mine_6
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_aluminum_mine_6
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_silicon_mine_6
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_iron_mine_6
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_carbon_mine_6
+  connections:
+    technology_mine_upgrade_3: []
+  isPlaceholder: false
+  position: 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+technology_mine_upgrade_7:
+  actions: []
+  isLane: false
+  name: BE_technology_mine_upgrade_7_name
+  description: BE_technology_mine_upgrade_7_description
+  iconName: Techtree Icons/ICO_TT_MineUpgrade2
+  popupImageName: Popups/Images/IMG_PU_Engineering_MineUpgrade2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_6
+    - !technology technology_mine_upgrade_6
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_water_mine_7
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_chemicals_mine_7
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_aluminum_mine_7
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_silicon_mine_7
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_iron_mine_7
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_carbon_mine_7
+  connections:
+    technology_mine_upgrade_4: []
+  isPlaceholder: false
+  position: 3
