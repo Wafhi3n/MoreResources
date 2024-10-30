@@ -8,12 +8,26 @@
 #Silicon
 #Uranium
 #Water
+
+#resource_carbon:
+#  #name: BE_resource_carbon_name
+#  name: Carbon (Regolite)
+#resource_aluminum:
+  #name: BE_resource_carbon_name
+#  cubeMaterialName: Aluminum
+  #name: Aluminum (Regolite)
+#resource_chemicals:
+#  #name: BE_resource_carbon_name
+#  name: Chemicals (Regolite)
+
+
+
 resource_aluminum_2:
   color: A8B3B9 #767d82
   index: 27
   knowledge: !knowledge knowledge_resource_aluminum
   materialType: Placeholder
-  name: BE_resource_aluminum_name
+  name: BE_resource_aluminum_name_2
   prefabName: Aluminum
   veinIconsName:
     - Sprite/aluminum_vein4.png
@@ -29,7 +43,7 @@ resource_aluminum_3:
   index: 28
   knowledge: !knowledge knowledge_resource_aluminum
   materialType: Placeholder
-  name: BE_resource_aluminum_name
+  name: BE_resource_aluminum_name_3
   prefabName: Aluminum
   veinIconsName:
     - Sprite/aluminum_veininf.png
@@ -44,7 +58,7 @@ resource_carbon_2:
   index: 29
   knowledge: !knowledge knowledge_resource_carbon
   materialType: Placeholder
-  name: BE_resource_carbon_name
+  name: BE_resource_carbon_name_2
   prefabName: Carbon
   veinIconsName:
     - Sprite/carbon_vein4.png
@@ -60,7 +74,7 @@ resource_carbon_3:
   index: 30
   knowledge: !knowledge knowledge_resource_carbon
   materialType: Placeholder
-  name: BE_resource_carbon_name
+  name: BE_resource_carbon_name_3
   prefabName: Carbon
   veinIconsName:
     - Sprite/carbon_veininf.png
@@ -76,7 +90,7 @@ resource_chemicals_2:
   index: 31
   knowledge: !knowledge knowledge_resource_chemicals
   materialType: Placeholder
-  name: BE_resource_chemicals_name
+  name: BE_resource_chemicals_name_2
   prefabName: Chemicals
   veinIconsName:
     - Sprite/chemicals_vein4.png
@@ -92,7 +106,7 @@ resource_chemicals_3:
   index: 32
   knowledge: !knowledge knowledge_resource_chemicals
   materialType: Placeholder
-  name: BE_resource_chemicals_name
+  name: BE_resource_chemicals_name_3
   prefabName: Chemicals
   veinIconsName:
     - Sprite/chemicals_veininf.png
@@ -109,7 +123,7 @@ resource_iron_2:
   index: 33
   knowledge: !knowledge knowledge_resource_iron
   materialType: Placeholder
-  name: BE_resource_iron_name
+  name: BE_resource_iron_name_2
   prefabName: Iron
   veinIconsName:
     - Sprite/iron_vein4.png
@@ -124,9 +138,10 @@ resource_iron_3:
   color: 43484a #767d82
   knowledge: !knowledge knowledge_resource_iron
   materialType: Placeholder
-  name: BE_resource_iron_name
+  name: BE_resource_iron_name_3
   prefabName: Iron
   veinIconsName:
+    - Sprite/iron_veininf.png
     - Sprite/iron_veininf.png
     - Sprite/iron_veininf.png
   iconName: Resource Icons/Iron
@@ -139,7 +154,7 @@ resource_nitrate_2:
   color: FFFFFF
   knowledge: null
   materialType: Placement
-  name: BE_resource_nitrate_name
+  name: BE_resource_nitrate_name_2
   prefabName: Nitrate
   veinIconsName:
     - Sprite/nitrate_vein4.png
@@ -150,7 +165,7 @@ resource_nitrate_3:
   color: FFFFFF
   knowledge: null
   materialType: Placement
-  name: BE_resource_nitrate_name
+  name: BE_resource_nitrate_name_3
   prefabName: Nitrate
   veinIconsName:
     - Sprite/nitrate_veininf.png
@@ -160,7 +175,7 @@ resource_silicon_2:
   color: A8B3B9 #767d82
   knowledge: !knowledge knowledge_resource_silicon
   materialType: Placeholder
-  name: BE_resource_silicon_name
+  name: BE_resource_silicon_name_2
   prefabName: Silicon
   veinIconsName:
     - Sprite/silicon_vein4.png
@@ -175,7 +190,7 @@ resource_silicon_3:
   color: 43484a #767d82
   knowledge: !knowledge knowledge_resource_silicon
   materialType: Placeholder
-  name: BE_resource_silicon_name
+  name: BE_resource_silicon_name_3
   prefabName: Silicon
   veinIconsName:
     - Sprite/silicon_veininf.png
@@ -191,7 +206,7 @@ resource_uranium_2:
   color: A8B3B9 #767d82
   knowledge: !knowledge knowledge_resource_uranium
   materialType: Placeholder
-  name: BE_resource_uranium_name
+  name: BE_resource_uranium_name_2
   prefabName: Uranium
   veinIconsName:
     - Sprite/uranium_vein4.png
@@ -206,7 +221,7 @@ resource_uranium_3:
   color: 43484a #7672
   knowledge: !knowledge knowledge_resource_uranium
   materialType: Placeholder
-  name: BE_resource_uranium_name
+  name: BE_resource_uranium_name_3
   prefabName: Uranium
   veinIconsName:
     - Sprite/uranium_veininf.png
@@ -221,7 +236,7 @@ resource_water_2:
   color: A8B3B9 #767d82
   knowledge: !knowledge knowledge_resource_water
   materialType: Placeholder
-  name: BE_resource_water_name
+  name: BE_resource_water_name_2
   prefabName: Water
   veinIconsName:
     - Sprite/water_vein4.png
@@ -236,7 +251,7 @@ resource_water_3:
   color: 43484a #767d82
   knowledge: !knowledge knowledge_resource_water
   materialType: Placeholder
-  name: BE_resource_water_name
+  name: BE_resource_water_name_3
   prefabName: Water
   veinIconsName:
     - Sprite/water_veininf.png
@@ -246,15 +261,44 @@ resource_water_3:
   cubeMaterial: ResourceCube
   showInScannerLens: true
   
+resource_AI_Core:
+  color: 636363
+  materialType: Manufactured
+  name: BE_resource_AI_Core_name
+  prefabName: Electronics
+  iconName: Resource Icons/Electronics
+  cubeMaterial: ResourceCube
 
-resource_oxygen:
+resource_co2:
+  color: 636363
+  materialType: Manufactured
+  name: BE_resource_co2_name
+  prefabName: Electronics
+  iconName: Resource Icons/Electronics
+  cubeMaterial: ResourceCube
+
+resource_dioxygen:
   color: c9222c
   knowledge: null
-  materialType: Placement
-  name: BE_resource_oxygen_name
+  materialType: Manufactured
+  name: BE_resource_dioxygen_name
   prefabName: Water
   veinIconsName:
     - Sprite/oxygen_vein1.png
     - Sprite/oxygen_vein2.png
     - Sprite/oxygen_vein3.png
-  showInScannerLens: true
+  iconName: Sprite/oxygen_vein1.png
+  showInScannerLens: false
+
+
+
+
+#resource_AI_Core:
+#  color: 636363
+#  materialType: Placeholder
+#  name: AI_Core
+#  prefabName: Water
+#  iconName: Resource Icons/Water
+#  cubeMaterial: ResourceCube
+
+#or;

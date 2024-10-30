@@ -156,22 +156,6 @@ technology_mine_upgrade_6:
     technology_mine_upgrade_3: []
   isPlaceholder: false
   position: 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 technology_mine_upgrade_7:
   actions: []
   isLane: false

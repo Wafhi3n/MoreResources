@@ -1,6 +1,7 @@
 modId: "MoreResourcesAndMines"
 compatibleGameVersions:
     - "1.8.x"
+#initialSetup: initialSetup.yaml
 languages:
   filenames:
     - language.yaml

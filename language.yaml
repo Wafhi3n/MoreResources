@@ -1,4 +1,4 @@
 base:
   systemLanguage: English
   files:
-    - localisation/MoreResources_EN.csv
+    - Localization/MoreResources_EN.csv
