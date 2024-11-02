@@ -1,0 +1,244 @@
+technology_aquatic_structures:
+  requiredResearchPoints: 150.0
+  actions:
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_aluminum_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_chemicals_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_carbon_mine_6_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_carbon_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_carbon_mine_5_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_carbon_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_aluminum_mine_6_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_aluminum_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_aluminum_mine_5_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_chemicals_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_chemicals_mine_6_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_silicon_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_silicon_mine_5_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_silicon_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_silicon_mine_6_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_water_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_water_mine_5_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_water_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_water_mine_6_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_iron_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_iron_mine_5_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_iron_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_iron_mine_6_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+    - PlayerFaction
+    - building_uranium_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_uranium_mine_5_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_uranium_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_uranium_mine_6_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_nitrate_mine_4_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_nitrate_mine_5_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_nitrate_mine_7_aquatic
+    showInFrontend: false
+  - command: UnlockBuilding
+    daysDelay: 0.0
+    arguments:
+      - PlayerFaction
+      - building_nitrate_mine_6_aquatic
+    showInFrontend: false
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+technology_water_purification_plant:
+  isLane: false
+  name: BE_technology_water_purification_plant_name
+  description: BE_technology_water_purification_plant_desc
+  iconName: Techtree Icons/ICO_TT_AquaticStructures
+  popupImageName: Popups/Images/IMG_PU_Engineering_AquaticStructures
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Aquatic_BG
+  requiredResearchPoints: 150.0
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_water_hub
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+      - PlayerFaction
+      - water_purification_plant
+  connections: {}
+  isPlaceholder: false
+  position: 3
+  requirements:
+    - !technology technology_lane_engineering_0
+  #popupOverride: !popup popup_aquatic_structures
+  
+
+technology_water_distribution:
+  !replace actions:
+    - arguments:
+        - PlayerFaction
+        - building_water_plant
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - building_water_converter
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_water_distribution
+      command: UnlockKnowledge
+      daysDelay: 0.0

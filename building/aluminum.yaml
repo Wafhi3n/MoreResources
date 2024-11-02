@@ -16,7 +16,7 @@ building_aluminum_mine_4:
   powerPriority: 3.0
   prefabName: AluminumMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.20
+  progressPerDay: 0.25
   requiredConstructionResources:
     !resource resource_steel: 90
   requiredResourceVein: !resource resource_aluminum_2
@@ -46,7 +46,7 @@ building_aluminum_mine_5:
   powerPriority: 3.0
   prefabName: AluminumMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.25
+  progressPerDay: 0.35
   requiredConstructionResources:
     !resource resource_steel: 300
   requiredResourceVein: !resource resource_aluminum_2
@@ -76,7 +76,7 @@ building_aluminum_mine_6:
   powerPriority: 3.0
   prefabName: AluminumMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.35
+  progressPerDay: 0.45
   requiredConstructionResources:
     !resource resource_steel: 1000
   requiredResourceVein: !resource resource_aluminum_2

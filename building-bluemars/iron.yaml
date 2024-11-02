@@ -16,9 +16,10 @@ building_iron_mine_4_aquatic:
   powerPriority: 3.0
   prefabName: IronMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.20
+  progressPerDay: 0.25
   requiredConstructionResources:
-    !resource resource_steel: 90
+    !resource resource_aluminum: 60
+    !resource resource_silicon: 60
   requiredResourceVein: !resource resource_iron_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -49,9 +50,10 @@ building_iron_mine_5_aquatic:
   powerPriority: 3.0
   prefabName: IronMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.25
+  progressPerDay: 0.35
   requiredConstructionResources:
-    !resource resource_steel: 300
+    !resource resource_aluminum: 170
+    !resource resource_silicon: 170
   requiredResourceVein: !resource resource_iron_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -82,9 +84,10 @@ building_iron_mine_6_aquatic:
   powerPriority: 3.0
   prefabName: IronMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.35
+  progressPerDay: 0.45
   requiredConstructionResources:
-    !resource resource_steel: 1000
+    !resource resource_aluminum: 750
+    !resource resource_silicon: 750
   requiredResourceVein: !resource resource_iron_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -117,7 +120,8 @@ building_iron_mine_7_aquatic:
   rubblePrefabName: RubblePile_M
   progressPerDay: 0.5
   requiredConstructionResources:
-    !resource resource_steel: 10000
+    !resource resource_aluminum: 7500
+    !resource resource_silicon: 7500
   requiredResourceVein: !resource resource_iron_3
   reservedRadius: 30.0
   waySnapRadius: 10.0

@@ -3,11 +3,11 @@ category_mines_2:
   iconName: Sprite/mk2_mines.png
   factionCountStatId: Mine
   categorySound: Sfx_Gameplay_BuildingBIP_Mines_MineGeneric
-  hidden: false
+  hidden: true
 
 category_mines_3:
   name: TXT_BuildPanel_Mines_3
   iconName: Sprite/mk3_mines.png
   categorySound: Sfx_Gameplay_BuildingBIP_Mines_MineGeneric
   factionCountStatId: Mine
-  hidden: false
+  hidden: true

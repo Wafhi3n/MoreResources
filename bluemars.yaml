@@ -8,9 +8,9 @@ building:
     - building-bluemars/aluminum.yaml
     - building-bluemars/carbon.yaml
     - building-bluemars/chemicals.yaml
-    - building-bluemars/ice.yaml
+    #- building-bluemars/ice.yaml
     - building-bluemars/iron.yaml
-     #- building-bluemars/nitrate.yaml
+    #- building-bluemars/nitrate.yaml
     - building-bluemars/silicon.yaml
     #- building-bluemars/uranium.yaml
     - building-bluemars/water.yaml

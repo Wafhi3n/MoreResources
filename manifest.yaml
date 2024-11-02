@@ -19,18 +19,19 @@ building:
   filenames:
     - building/carbon.yaml
     - building/aluminum.yaml
-  #  - building-bluemars/aluminum.yaml
-
+#    - building.yaml
     - building/chemicals.yaml
     - building/iron.yaml
 # #   - building/nitrate.yaml
     - building/silicon.yaml
     - building/uranium.yaml
     - building/water.yaml
+    - building.yaml
   replace: false 
 technology:
   filenames:
     - technology-engineering.yaml
+    - technology.yaml
   replace: false  
 
 optionalManifests:

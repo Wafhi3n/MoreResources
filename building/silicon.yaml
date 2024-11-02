@@ -16,9 +16,10 @@ building_silicon_mine_4:
   powerPriority: 3.0
   prefabName: SiliconMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.20
+  progressPerDay: 0.25
   requiredConstructionResources:
-    !resource resource_steel: 90
+    !resource resource_aluminum: 60
+    !resource resource_steel: 60
   requiredResourceVein: !resource resource_silicon_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -46,9 +47,10 @@ building_silicon_mine_5:
   powerPriority: 3.0
   prefabName: SiliconMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.25
+  progressPerDay: 0.35
   requiredConstructionResources:
-    !resource resource_steel: 300
+    !resource resource_aluminum: 170
+    !resource resource_steel: 170
   requiredResourceVein: !resource resource_silicon_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -76,9 +78,10 @@ building_silicon_mine_6:
   powerPriority: 3.0
   prefabName: SiliconMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.35
+  progressPerDay: 0.45
   requiredConstructionResources:
-    !resource resource_steel: 1000
+    !resource resource_aluminum: 750
+    !resource resource_steel: 750
   requiredResourceVein: !resource resource_silicon_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -108,7 +111,8 @@ building_silicon_mine_7:
   rubblePrefabName: RubblePile_M
   progressPerDay: 0.5
   requiredConstructionResources:
-    !resource resource_steel: 10000
+    !resource resource_aluminum: 7500
+    !resource resource_steel: 7500
   requiredResourceVein: !resource resource_silicon_3
   reservedRadius: 30.0
   waySnapRadius: 10.0

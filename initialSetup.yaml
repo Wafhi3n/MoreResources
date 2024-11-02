@@ -72,9 +72,9 @@
 ##  - !knowledge knowledge_ruins_and_research_outposts
 ##  - !knowledge knowledge_sectors_and_expansions
 #  - !knowledge knowledge_special_projects
-#!replace unlockedBuildings:
-#  - !building building_aluminum_mine_2
-#  - !building building_silicon_mine_2
+#unlockedBuildings:
+#  - !building water_purification_plant
+#  - !building water_purification_plant_2
 #  - !building building_iron_mine_2
 #  - !building building_carbon_mine_2
 #  - !building building_water_mine_2

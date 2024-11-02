@@ -16,9 +16,10 @@ building_carbon_mine_4_aquatic:
   powerPriority: 3.0
   prefabName: CarbonMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.20
+  progressPerDay: 0.25
   requiredConstructionResources:
-    !resource resource_steel: 90
+    !resource resource_aluminum: 60
+    !resource resource_iron: 60
   requiredResourceVein: !resource resource_carbon_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -49,9 +50,10 @@ building_carbon_mine_5_aquatic:
   powerPriority: 3.0
   prefabName: CarbonMine_2
   rubblePrefabName: RubblePile_M
-  progressPerDay: 0.25
+  progressPerDay: 0.35
   requiredConstructionResources:
-    !resource resource_steel: 300
+    !resource resource_aluminum: 170
+    !resource resource_iron: 170
   requiredResourceVein: !resource resource_carbon_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -84,7 +86,8 @@ building_carbon_mine_6_aquatic:
   rubblePrefabName: RubblePile_M
   progressPerDay: 0.35
   requiredConstructionResources:
-    !resource resource_steel: 1000
+    !resource resource_aluminum: 750
+    !resource resource_iron: 750
   requiredResourceVein: !resource resource_carbon_2
   reservedRadius: 30.0
   waySnapRadius: 10.0
@@ -117,7 +120,8 @@ building_carbon_mine_7_aquatic:
   rubblePrefabName: RubblePile_M
   progressPerDay: 0.5
   requiredConstructionResources:
-    !resource resource_steel: 10000
+    !resource resource_aluminum: 7500
+    !resource resource_iron: 7500
   requiredResourceVein: !resource resource_carbon_3
   reservedRadius: 30.0
   waySnapRadius: 10.0

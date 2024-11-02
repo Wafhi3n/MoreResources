@@ -1,4 +1,20 @@
 passes:
+  - !ScatterPassSector ### North pole
+    minLat: 50
+    maxLat: 90
+    minLng: 0
+    maxLng: 360
+    totalAmount: 300
+    resourceRatio:
+      - { resource: !resource resource_water, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 3000 }
+  - !ScatterPassSector ### south pole
+    minLat: -40
+    maxLat: -90
+    minLng: 0
+    maxLng: 360
+    totalAmount: 100
+    resourceRatio:
+      - { resource: !resource resource_water, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 3000 }
   - !ScatterPassWhole
     totalAmount: 20
     resourceRatio:
